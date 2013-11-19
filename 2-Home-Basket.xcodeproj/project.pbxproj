@@ -11,10 +11,10 @@
 		DC01AACC183BC7D7004E3E0D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DC01AACB183BC7D7004E3E0D /* main.m */; };
 		DC01AAD0183BC7D7004E3E0D /* __Home_Basket.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = DC01AACF183BC7D7004E3E0D /* __Home_Basket.1 */; };
 		DC01AAD8183BC7F2004E3E0D /* Fruit.m in Sources */ = {isa = PBXBuildFile; fileRef = DC01AAD7183BC7F2004E3E0D /* Fruit.m */; };
-		DC01AADB183BCB41004E3E0D /* BigFruit.m in Sources */ = {isa = PBXBuildFile; fileRef = DC01AADA183BCB41004E3E0D /* BigFruit.m */; };
 		DC01AADE183BE052004E3E0D /* PitFruit.m in Sources */ = {isa = PBXBuildFile; fileRef = DC01AADD183BE052004E3E0D /* PitFruit.m */; };
 		DC01AAE1183BE53A004E3E0D /* Basket.m in Sources */ = {isa = PBXBuildFile; fileRef = DC01AAE0183BE53A004E3E0D /* Basket.m */; };
 		DC01AAE4183BED7F004E3E0D /* NSMutableDictionary+FruitCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = DC01AAE3183BED7F004E3E0D /* NSMutableDictionary+FruitCategory.m */; };
+		DC01AAE7183BF401004E3E0D /* BigFruit.m in Sources */ = {isa = PBXBuildFile; fileRef = DC01AAE6183BF401004E3E0D /* BigFruit.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -38,14 +38,14 @@
 		DC01AACF183BC7D7004E3E0D /* __Home_Basket.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = __Home_Basket.1; sourceTree = "<group>"; };
 		DC01AAD6183BC7F2004E3E0D /* Fruit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Fruit.h; sourceTree = "<group>"; };
 		DC01AAD7183BC7F2004E3E0D /* Fruit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Fruit.m; sourceTree = "<group>"; };
-		DC01AAD9183BCB41004E3E0D /* BigFruit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BigFruit.h; path = ../BigFruit.h; sourceTree = "<group>"; };
-		DC01AADA183BCB41004E3E0D /* BigFruit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BigFruit.m; path = ../BigFruit.m; sourceTree = "<group>"; };
 		DC01AADC183BE052004E3E0D /* PitFruit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PitFruit.h; sourceTree = "<group>"; };
 		DC01AADD183BE052004E3E0D /* PitFruit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PitFruit.m; sourceTree = "<group>"; };
 		DC01AADF183BE53A004E3E0D /* Basket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Basket.h; sourceTree = "<group>"; };
 		DC01AAE0183BE53A004E3E0D /* Basket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Basket.m; sourceTree = "<group>"; };
 		DC01AAE2183BED7F004E3E0D /* NSMutableDictionary+FruitCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableDictionary+FruitCategory.h"; sourceTree = "<group>"; };
 		DC01AAE3183BED7F004E3E0D /* NSMutableDictionary+FruitCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableDictionary+FruitCategory.m"; sourceTree = "<group>"; };
+		DC01AAE5183BF401004E3E0D /* BigFruit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BigFruit.h; sourceTree = "<group>"; };
+		DC01AAE6183BF401004E3E0D /* BigFruit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BigFruit.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +88,8 @@
 		DC01AACA183BC7D7004E3E0D /* 2-Home-Basket */ = {
 			isa = PBXGroup;
 			children = (
+				DC01AAE5183BF401004E3E0D /* BigFruit.h */,
+				DC01AAE6183BF401004E3E0D /* BigFruit.m */,
 				DC01AACB183BC7D7004E3E0D /* main.m */,
 				DC01AAE2183BED7F004E3E0D /* NSMutableDictionary+FruitCategory.h */,
 				DC01AAE3183BED7F004E3E0D /* NSMutableDictionary+FruitCategory.m */,
@@ -95,8 +97,6 @@
 				DC01AAE0183BE53A004E3E0D /* Basket.m */,
 				DC01AADC183BE052004E3E0D /* PitFruit.h */,
 				DC01AADD183BE052004E3E0D /* PitFruit.m */,
-				DC01AAD9183BCB41004E3E0D /* BigFruit.h */,
-				DC01AADA183BCB41004E3E0D /* BigFruit.m */,
 				DC01AAD6183BC7F2004E3E0D /* Fruit.h */,
 				DC01AAD7183BC7F2004E3E0D /* Fruit.m */,
 				DC01AACF183BC7D7004E3E0D /* __Home_Basket.1 */,
@@ -167,7 +167,7 @@
 				DC01AAE4183BED7F004E3E0D /* NSMutableDictionary+FruitCategory.m in Sources */,
 				DC01AAE1183BE53A004E3E0D /* Basket.m in Sources */,
 				DC01AADE183BE052004E3E0D /* PitFruit.m in Sources */,
-				DC01AADB183BCB41004E3E0D /* BigFruit.m in Sources */,
+				DC01AAE7183BF401004E3E0D /* BigFruit.m in Sources */,
 				DC01AAD8183BC7F2004E3E0D /* Fruit.m in Sources */,
 				DC01AACC183BC7D7004E3E0D /* main.m in Sources */,
 			);

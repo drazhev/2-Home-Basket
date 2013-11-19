@@ -11,7 +11,6 @@
 #import "Fruit.h"
 #import "PitFruit.h"
 #import "Basket.h"
-#import "NSMutableDictionary+FruitCategory.h"
 
 int main(int argc, const char * argv[])
 {
@@ -26,7 +25,7 @@ int main(int argc, const char * argv[])
         [basket addFruit:bigFruit];
         [basket addFruit:bigFruit2];
         [basket showEatableWeight];
-        NSLog(@"%@", [basket.fruits showContentOfBasketDictionary]);
+        [basket describeContent];
     }
     return 0;
 }

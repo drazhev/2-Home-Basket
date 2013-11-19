@@ -10,6 +10,8 @@
 
 @interface Basket ()
 
+@property (nonatomic) NSMutableDictionary* fruits;
+
 @end
 
 @implementation Basket
@@ -48,5 +50,8 @@
     NSLog(@"The basket has %.2f kilos eatable weight", totalWeight);
 }
 
+-(void) describeContent {
+    NSLog(@"%@", [self.fruits showContentOfBasketDictionary]);
+}
 
 @end

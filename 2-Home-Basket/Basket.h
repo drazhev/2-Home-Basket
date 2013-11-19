@@ -8,6 +8,7 @@
 
 #import <Foundation/Foundation.h>
 #import "Fruit.h"
+#import "NSMutableDictionary+FruitCategory.h"
 
 @protocol EatableWeight <NSObject>
 
@@ -17,11 +18,11 @@
 
 @interface Basket : NSObject <EatableWeight>
 
-@property (nonatomic) NSMutableDictionary* fruits;
-
 // designated initializer
 -(id) initWithFruits: (NSMutableDictionary*) fruits;
 
 -(void) addFruit: (Fruit*) fruit;
+
+-(void) describeContent;
 
 @end

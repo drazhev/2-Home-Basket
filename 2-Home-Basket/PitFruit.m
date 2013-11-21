@@ -16,11 +16,16 @@
 
 @implementation PitFruit
 
--(void)setPitSize:(double)pitSize {
-    if (pitSize >= 0 && pitSize <= 1) {
-        _pitSize = pitSize;
-    }
-}
+// comment out these if you want to set the derived properites
+// it is not neccessary for the assignment, though
+
+//-(void)setFruitName:(NSString *)fruitName {
+//    _fruitName = fruitName;
+//}
+
+//-(void)setFruitWeight:(double)fruitWeight {
+//    _fruitWeight = fruitWeight;
+//}
 
 -(id) initWithName:(NSString*) name weight: (double) weight andPitSize: (double) pitSize {
     if (self = [super initWithName:name andWeight:weight]) {
@@ -43,6 +48,13 @@
 
 -(double) eatableWeight {
     return (1-self.pitSize)*self.fruitWeight;
+}
+
+
+-(void)setPitSize:(double)pitSize {
+    if (pitSize >= 0 && pitSize <= 1) {
+        _pitSize = pitSize;
+    }
 }
 
 @end

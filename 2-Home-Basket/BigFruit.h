@@ -16,8 +16,8 @@ typedef enum fruitSize{
 
 @interface BigFruit : Fruit
 
-// comment out these if you want to set the derived properites
-// it is not neccessary for the assignment, though
+// comment out these if you want to modify the derived properites
+// it is not neccessary for this assignment, though
 
 //@property (nonatomic, readwrite) NSString* fruitName;
 //@property (nonatomic, readwrite) double fruitWeight;

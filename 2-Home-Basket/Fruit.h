@@ -9,8 +9,10 @@
 #import <Foundation/Foundation.h>
 
 @interface Fruit : NSObject {
-    NSString* _fruitName;
-    double _fruitWeight;
+    // comment out these if you want the modify the properties in the subclasses
+    // it is not necessary for this assignment, though
+    //NSString* _fruitName;
+    //double _fruitWeight;
 }
 
 @property (nonatomic, readonly) NSString* fruitName;
@@ -20,6 +22,5 @@
 -(id)initWithName:(NSString *)name andWeight: (double) weight;
 
 -(double) eatableWeight;
-
 
 @end

@@ -10,6 +10,12 @@
 
 @interface PitFruit : Fruit
 
+// comment out these if you want to modify the derived properites
+// it is not neccessary for this assignment, though
+
+//@property (nonatomic, readwrite) NSString* fruitName;
+//@property (nonatomic, readwrite) double fruitWeight;
+
 @property (nonatomic, readonly) double pitSize;
 
 // designated initializer

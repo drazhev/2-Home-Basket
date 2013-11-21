@@ -88,17 +88,17 @@
 		DC01AACA183BC7D7004E3E0D /* 2-Home-Basket */ = {
 			isa = PBXGroup;
 			children = (
-				DC01AAE5183BF401004E3E0D /* BigFruit.h */,
-				DC01AAE6183BF401004E3E0D /* BigFruit.m */,
-				DC01AACB183BC7D7004E3E0D /* main.m */,
-				DC01AAE2183BED7F004E3E0D /* NSMutableDictionary+FruitCategory.h */,
-				DC01AAE3183BED7F004E3E0D /* NSMutableDictionary+FruitCategory.m */,
-				DC01AADF183BE53A004E3E0D /* Basket.h */,
-				DC01AAE0183BE53A004E3E0D /* Basket.m */,
-				DC01AADC183BE052004E3E0D /* PitFruit.h */,
-				DC01AADD183BE052004E3E0D /* PitFruit.m */,
 				DC01AAD6183BC7F2004E3E0D /* Fruit.h */,
 				DC01AAD7183BC7F2004E3E0D /* Fruit.m */,
+				DC01AAE5183BF401004E3E0D /* BigFruit.h */,
+				DC01AAE6183BF401004E3E0D /* BigFruit.m */,
+				DC01AADC183BE052004E3E0D /* PitFruit.h */,
+				DC01AADD183BE052004E3E0D /* PitFruit.m */,
+				DC01AADF183BE53A004E3E0D /* Basket.h */,
+				DC01AAE0183BE53A004E3E0D /* Basket.m */,
+				DC01AAE2183BED7F004E3E0D /* NSMutableDictionary+FruitCategory.h */,
+				DC01AAE3183BED7F004E3E0D /* NSMutableDictionary+FruitCategory.m */,
+				DC01AACB183BC7D7004E3E0D /* main.m */,
 				DC01AACF183BC7D7004E3E0D /* __Home_Basket.1 */,
 				DC01AACD183BC7D7004E3E0D /* Supporting Files */,
 			);
@@ -283,6 +283,7 @@
 				DC01AAD5183BC7D7004E3E0D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
